@@ -1,0 +1,15 @@
+\newcommand{\fullMovie}[2]{
+{ % all template changes are local to this group.
+    \setbeamertemplate{navigation symbols}{}
+    \begin{frame}<article:0>[plain]
+        \begin{tikzpicture}[remember picture,overlay]
+            \node[at=(current page.center)] {
+    \href{run:#1?autostart}
+       {\includegraphics[keepaspectratio,
+                        width=\paperwidth,
+                        height=\paperheight]{#2}}
+            };
+        \end{tikzpicture}
+     \end{frame}
+}
+}
