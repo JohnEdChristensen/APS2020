@@ -2,32 +2,72 @@
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\beamer@sectionpages {1}{2}}
-\headcommand {\beamer@subsectionpages {1}{2}}
-\headcommand {\sectionentry {1}{Background}{3}{Background}{0}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Lattices}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{3}{Symmetry}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\beamer@subsectionentry {0}{1}{3}{3}{Brillouin Zones}}
-\headcommand {\beamer@sectionpages {3}{2}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\sectionentry {2}{Irreducible Brillouin zones}{3}{Irreducible Brillouin zones}{0}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{3}{Why we have to work in the Brillouin Zone}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{3}{Finding the Irreducible Brillouin Zone}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{3}{Results}}
-\headcommand {\slideentry {2}{3}{1}{3/3}{Results}{0}}
-\headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {2}{3}{2}{4/4}{Results}{0}}
-\headcommand {\beamer@framepages {4}{4}}
-\headcommand {\slideentry {2}{3}{3}{5/7}{Results}{0}}
-\headcommand {\beamer@framepages {5}{7}}
-\headcommand {\beamer@partpages {1}{7}}
-\headcommand {\beamer@subsectionpages {3}{7}}
-\headcommand {\beamer@sectionpages {3}{7}}
-\headcommand {\beamer@documentpages {7}}
-\headcommand {\gdef \inserttotalframenumber {5}}
+\headcommand {\slideentry {0}{0}{3}{3/4}{}{0}}
+\headcommand {\beamer@framepages {3}{4}}
+\headcommand {\beamer@sectionpages {1}{4}}
+\headcommand {\beamer@subsectionpages {1}{4}}
+\headcommand {\sectionentry {1}{Background}{5}{Background}{0}}
+\headcommand {\beamer@subsectionpages {5}{4}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{5}{Lattices}}
+\headcommand {\slideentry {1}{1}{1}{5/5}{Lattices}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\slideentry {1}{1}{2}{6/6}{Lattices}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {1}{1}{3}{7/7}{Lattices}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{1}{4}{8/8}{Lattices}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {1}{1}{5}{9/9}{Lattices}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@subsectionpages {5}{9}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{10}{Brillouin Zones}}
+\headcommand {\slideentry {1}{2}{1}{10/10}{Brillouin Zones}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {1}{2}{2}{11/11}{Brillouin Zones}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {1}{2}{3}{12/12}{Brillouin Zones}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {1}{2}{4}{13/13}{Brillouin Zones}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {1}{2}{5}{14/14}{Brillouin Zones}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {1}{2}{6}{15/15}{Brillouin Zones}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {1}{2}{7}{16/16}{Brillouin Zones}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {1}{2}{8}{17/17}{Brillouin Zones}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {1}{2}{9}{18/18}{Brillouin Zones}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {1}{2}{10}{19/19}{Brillouin Zones}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\beamer@subsectionpages {10}{19}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{20}{Symmetry}}
+\headcommand {\slideentry {1}{3}{1}{20/20}{Symmetry}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@sectionpages {5}{20}}
+\headcommand {\beamer@subsectionpages {20}{20}}
+\headcommand {\sectionentry {2}{Irreducible Brillouin Zone Algorithm}{21}{Irreducible Brillouin Zone Algorithm}{0}}
+\headcommand {\beamer@subsectionpages {21}{20}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{21}{Why we have to work in the Brillouin Zone}}
+\headcommand {\slideentry {2}{1}{1}{21/21}{Why we have to work in the Brillouin Zone}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {2}{1}{2}{22/22}{Why we have to work in the Brillouin Zone}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\beamer@subsectionpages {21}{22}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{23}{Finding the Irreducible Brillouin Zone}}
+\headcommand {\slideentry {2}{2}{1}{23/23}{Finding the Irreducible Brillouin Zone}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\slideentry {2}{2}{2}{24/24}{Finding the Irreducible Brillouin Zone}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {2}{2}{3}{25/25}{Finding the Irreducible Brillouin Zone}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\beamer@subsectionpages {23}{25}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{26}{Results}}
+\headcommand {\slideentry {2}{3}{1}{26/26}{Results}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\beamer@partpages {1}{26}}
+\headcommand {\beamer@subsectionpages {26}{26}}
+\headcommand {\beamer@sectionpages {21}{26}}
+\headcommand {\beamer@documentpages {26}}
+\headcommand {\gdef \inserttotalframenumber {25}}

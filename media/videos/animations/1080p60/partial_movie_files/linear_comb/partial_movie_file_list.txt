@@ -1,0 +1,8 @@
+file '/home/john/msg/talks/APS20/media/videos/animations/1080p60/partial_movie_files/linear_comb/00000.mp4'
+file '/home/john/msg/talks/APS20/media/videos/animations/1080p60/partial_movie_files/linear_comb/00001.mp4'
+file '/home/john/msg/talks/APS20/media/videos/animations/1080p60/partial_movie_files/linear_comb/00002.mp4'
+file '/home/john/msg/talks/APS20/media/videos/animations/1080p60/partial_movie_files/linear_comb/00003.mp4'
+file '/home/john/msg/talks/APS20/media/videos/animations/1080p60/partial_movie_files/linear_comb/00004.mp4'
+file '/home/john/msg/talks/APS20/media/videos/animations/1080p60/partial_movie_files/linear_comb/00005.mp4'
+file '/home/john/msg/talks/APS20/media/videos/animations/1080p60/partial_movie_files/linear_comb/00006.mp4'
+file '/home/john/msg/talks/APS20/media/videos/animations/1080p60/partial_movie_files/linear_comb/00007.mp4'

@@ -1,2 +1,25 @@
 [duration]
 0
+[notes]
+### 6
+because the lattice is periodic we can look at a finite region
+### 8
+Introduce BZ (region closest to the origin)
+### 15
+uc is equiv to bz
+### 16
+We will work in the bz, becuase it is convinient with symetry
+### 17
+We have to perform dificult integral, it takes many rectangles to be accurate
+### 18
+twice as fast
+### 19
+next: sampling
+### 20
+uniform sampling
+reduce points by symmetry
+
+non-uniform sampling
+reduce volume first, then sample
+
+Next: IBZ ob

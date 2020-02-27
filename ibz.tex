@@ -3,6 +3,7 @@
 \usepackage{hyperref}
 \usepackage{mycmd}
 \usepackage{tikz}
+\newcommand{\dir}{media/videos/animations/720p30}
 \usetheme{Pittsburgh}
 
 \setbeamertemplate{subsection in toc}{
@@ -11,7 +12,9 @@
 \setbeamertemplate{navigation symbols}{}%remove navigation symbols
 
 \title{Why Polygons are Mostly Pointless}
-\author{John Christensen}
+\author{John Christensen\\
+Jeremy Jorgensen\\
+Gus Hart}
 \institute{Brigham Young University}
 
 \titlegraphic{\vspace*{1cm}\hspace*{12cm}\includegraphics[height=2cm]{byu_logo.png}}
@@ -25,23 +28,66 @@
     \frametitle{Table of Contents}
     \tableofcontents
 \end{frame} 
+\begin{frame}
+    \begin{itemize}
+        \item Our Goal: Predict the properties of materials \pause 
+        \item The Problem: Simulating a mole of atoms is impossible
+
+    \end{itemize}
+\end{frame}
 
 \section{Background}
 \subsection{Lattices}
-\subsection{Symmetry}
+%Frame showing the creation of a lattice,
+%basis vectors
+\fullMovie{\dir/lat_create}
+%linear combination of basis
+\fullMovie{\dir/linear_comb}
+%infinite problem
+\fullMovie{\dir/lat_zoom}
+%unit cell
+\fullMovie{\dir/unit_cell}
+%tile space
+\fullMovie{\dir/tile}
+%brillouin zone
+
 \subsection{Brillouin Zones}
-\section{Irreducible Brillouin zones}
+
+\fullpic{\dir/hex_bz}
+\fullMovie{\dir/hex_bz}
+\fullMovie{\dir/hex_bz_tile}
+
+\fullMovie{\dir/bz}
+
+\fullMovie{\dir/bz_tile}
+\fullMovie{\dir/ob_bz}
+\fullMovie{\dir/ob_bz_tile}
+
+\fullMovie{\dir/bz_to_uc}
+
+%symmetry
+
+\fullMovie{\dir/rectangle_rule}
+\fullMovie{\dir/rectangle_rule2}
+
+\subsection{Symmetry}
+\fullMovie{\dir/sym}
+
+\section{Irreducible Brillouin Zone Algorithm}
 \subsection{Why we have to work in the Brillouin Zone}
+\fullMovie{\dir/sampling}
+\fullMovie{\dir/nu_sampling}
+
+
 \subsection{Finding the Irreducible Brillouin Zone}
+%ibx
+\fullMovie{\dir/ob_ibz}
+\fullMovie{\dir/square_ibz}
+\fullMovie{\dir/ibz}
+
 \subsection{Results}
-\fullMovie{v1.avi}{v1.jpg}
-\fullMovie{v1ss.avi}{v1.jpg}
-\begin{frame}
-    \begin{itemize}
-        \item 1\pause
-        \item 2\pause
-        \item 3
-    \end{itemize} 
-\end{frame}
+\fullMovieLoop{\dir/3DIBZ}
+
+
 
 \end{document}

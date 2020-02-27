@@ -1,14 +1,42 @@
-\newcommand{\fullMovie}[2]{
+\newcommand{\fullMovie}[1]{
 { % all template changes are local to this group.
     \setbeamertemplate{navigation symbols}{}
     \begin{frame}<article:0>[plain]
         \begin{tikzpicture}[remember picture,overlay]
             \node[at=(current page.center)] {
-    \href{run:#1?autostart}
+    \href{run:#1.mp4?autostart}
        {\includegraphics[keepaspectratio,
                         width=\paperwidth,
-                        height=\paperheight]{#2}}
+                    height=\paperheight]{#1.jpg}}
             };
+        \end{tikzpicture}
+     \end{frame}
+}
+}
+\newcommand{\fullMovieLoop}[1]{
+{ % all template changes are local to this group.
+    \setbeamertemplate{navigation symbols}{}
+    \begin{frame}<article:0>[plain]
+        \begin{tikzpicture}[remember picture,overlay]
+            \node[at=(current page.center)] {
+                \href{run:#1.mp4?autostart&loop}
+       {\includegraphics[keepaspectratio,
+                        width=\paperwidth,
+                    height=\paperheight]{#1.jpg}}
+            };
+        \end{tikzpicture}
+     \end{frame}
+}
+}
+\newcommand{\fullpic}[1]{
+{ % all template changes are local to this group.
+    \setbeamertemplate{navigation symbols}{}
+    \begin{frame}<article:0>[plain]
+        \begin{tikzpicture}[remember picture,overlay]
+            \node[at=(current page.center)] {
+       \includegraphics[keepaspectratio,
+                        width=\paperwidth,
+                    height=\paperheight]{#1.jpg}};
         \end{tikzpicture}
      \end{frame}
 }
