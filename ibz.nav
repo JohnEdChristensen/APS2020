@@ -41,20 +41,20 @@
 \headcommand {\beamer@framepages {18}{18}}
 \headcommand {\slideentry {1}{2}{10}{19/19}{Brillouin Zones}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@subsectionpages {10}{19}}
-\headcommand {\beamer@subsectionentry {0}{1}{3}{20}{Symmetry}}
-\headcommand {\slideentry {1}{3}{1}{20/20}{Symmetry}{0}}
+\headcommand {\slideentry {1}{2}{11}{20/20}{Brillouin Zones}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@sectionpages {5}{20}}
-\headcommand {\beamer@subsectionpages {20}{20}}
-\headcommand {\sectionentry {2}{Irreducible Brillouin Zone Algorithm}{21}{Irreducible Brillouin Zone Algorithm}{0}}
-\headcommand {\beamer@subsectionpages {21}{20}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{21}{Why we have to work in the Brillouin Zone}}
-\headcommand {\slideentry {2}{1}{1}{21/21}{Why we have to work in the Brillouin Zone}{0}}
+\headcommand {\slideentry {1}{2}{12}{21/21}{Brillouin Zones}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {2}{1}{2}{22/22}{Why we have to work in the Brillouin Zone}{0}}
+\headcommand {\beamer@subsectionpages {10}{21}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{22}{Symmetry}}
+\headcommand {\slideentry {1}{3}{1}{22/22}{Symmetry}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\beamer@subsectionpages {21}{22}}
+\headcommand {\beamer@sectionpages {5}{22}}
+\headcommand {\beamer@subsectionpages {22}{22}}
+\headcommand {\sectionentry {2}{Irreducible Brillouin Zone Algorithm}{23}{Irreducible Brillouin Zone Algorithm}{0}}
+\headcommand {\beamer@subsectionpages {23}{22}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{23}{Why we have to work in the Brillouin Zone}}
+\headcommand {\beamer@subsectionpages {23}{22}}
 \headcommand {\beamer@subsectionentry {0}{2}{2}{23}{Finding the Irreducible Brillouin Zone}}
 \headcommand {\slideentry {2}{2}{1}{23/23}{Finding the Irreducible Brillouin Zone}{0}}
 \headcommand {\beamer@framepages {23}{23}}
@@ -68,6 +68,6 @@
 \headcommand {\beamer@framepages {26}{26}}
 \headcommand {\beamer@partpages {1}{26}}
 \headcommand {\beamer@subsectionpages {26}{26}}
-\headcommand {\beamer@sectionpages {21}{26}}
+\headcommand {\beamer@sectionpages {23}{26}}
 \headcommand {\beamer@documentpages {26}}
 \headcommand {\gdef \inserttotalframenumber {25}}

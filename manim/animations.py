@@ -191,8 +191,8 @@ class tile(lat_create):
         #self.play(ShowCreation(draw_tiles))
         self.play(*[ShowCreation(t) for t in draw_tiles])
 
-def cut_line(p,op=ORIGIN,c=WHITE):
-    line =DashedLine(op,p,positive_space_ratio = 0.8,color=c)
+def cut_line(p,op=ORIGIN,c=WHITE,ps = .8,dl=.01 ):
+    line =DashedLine(op,p,positive_space_ratio = ps,color=c,dash_length=dl)
     line.rotate(np.pi/2).scale(20)
 
     return line
@@ -744,6 +744,121 @@ class nu_sampling(lat_create):
         self.add(draw_bsample)
         self.play(ShowCreation(draw_bsample2))
 
+class simp_sampling(lat_create):
+    CONFIG ={
+        "b1":hexagonal[0],
+        "b2":hexagonal[1],
+        "draw_lat":False,
+        "show_vecs":False,
+        "draw_vecs":False,
+        "v1":Vector(b1,color=GREEN),
+        "v2":Vector(b2,color=RED)
+        }
+    def construct(self):
+        self.start()
+        density = 6.0
+        s1 = self.b1/density
+        s2 = self.b2/density
+
+        points = [ s1*x+s2*y
+            for x in np.arange(0,density,1)
+            for y in np.arange(0,density,1)
+            ]     #List of sampling points
+
+        sample = []
+        for p in points:
+            sample.append(Dot(radius=0.05,color=RED).shift(p))
+
+        draw_sample = VGroup(*sample)
+        #self.add(draw_sample)
+
+        self.play(ShowCreation(Polygon(*bzv,color=YELLOW,fill_opacity = 0.2)))
+
+        bpoints = [ [s1*x+s2*y,s1*x+s2*y-b1,s1*x+s2*y-b1-b2,s1*x+s2*y-b2]
+            for x in np.arange(0,density,1)
+            for y in np.arange(0,density,1)
+            ]     #List of sampling points
+        bsample = []
+        for ps in bpoints:
+            distance = 100
+            closest_point = 0
+            for p in ps:
+                d = np.linalg.norm(p)
+                if d < distance -.000001:
+                    distance = d
+                    closest_point = p
+            bsample.append(Dot(radius=0.05,color=GREEN).shift(closest_point))
+
+        draw_bsample = VGroup(*bsample)
+        self.play(ShowCreation(draw_bsample))
+
+class simp_sampling2(lat_create):
+    CONFIG ={
+        "b1":hexagonal[0],
+        "b2":hexagonal[1],
+        "draw_lat":False,
+        "show_vecs":False,
+        "draw_vecs":False,
+        "v1":Vector(b1,color=GREEN),
+        "v2":Vector(b2,color=RED)
+        }
+    def construct(self):
+        self.start()
+        density = 6.0
+        s1 = self.b1/density
+        s2 = self.b2/density
+
+        points = [ s1*x+s2*y
+            for x in np.arange(0,density,1)
+            for y in np.arange(0,density,1)
+            ]     #List of sampling points
+
+        sample = []
+        for p in points:
+            sample.append(Dot(radius=0.05,color=RED).shift(p))
+
+        draw_sample = VGroup(*sample)
+        #self.add(draw_sample)
+
+        self.add(Polygon(*bzv,color=YELLOW,fill_opacity = 0.2))
+
+        bpoints = [ [s1*x+s2*y,s1*x+s2*y-b1,s1*x+s2*y-b1-b2,s1*x+s2*y-b2]
+            for x in np.arange(0,density,1)
+            for y in np.arange(0,density,1)
+            ]     #List of sampling points
+        bsample = []
+        for ps in bpoints:
+            distance = 100
+            closest_point = 0
+            for p in ps:
+                d = np.linalg.norm(p)
+                if d < distance -.000001:
+                    distance = d
+                    closest_point = p
+            bsample.append(Dot(radius=0.05,color=GREEN).shift(closest_point))
+
+        draw_bsample = VGroup(*bsample)
+        self.add(draw_bsample)
+
+        ibz = [[0.0,-1.1547,0.0],[0.5,-(1.1547-0.57735)/2 - 0.57735,0.0],ORIGIN]
+
+        self.play(FadeOut(draw_bsample))
+        ps = [[0.0,-1.1547,0.0],[0.5,-(1.1547-0.57735)/2 - 0.57735,0.0],ORIGIN,
+np.array([0.0,-1.1547,0.0])*.4,
+np.array([0.0,-1.1547,0.0])*.8,
+np.array([0.5,-(1.1547-0.57735)/2 - 0.57735,0.0])*.33,
+np.array([0.5,-(1.1547-0.57735)/2 - 0.57735,0.0])*.66,[0.2,-.75,0.0]]
+        self.play(ShowCreation(Polygon(*ibz,color=PURPLE,fill_opacity=.2 )))
+        self.wait()
+        ibz_sample = []
+
+        sample = []
+        for p in ps:
+            sample.append(Dot(radius=0.05,color=RED).shift(p))
+        draw_sample = VGroup(*sample)
+        self.play(ShowCreation(draw_sample))
+
+
 class rectangle_rule(GraphScene):
     CONFIG = {
             "x_min":-4,
@@ -944,5 +1059,13 @@ class sym(ibz_setup):
             self.play(Rotate(bzp,np.pi,axis = ax,about_point=ORIGIN),Indicate(refGroup[i]),run_time=1)
             self.wait()
             i+=1
+class line_test(Scene):
+    def construct(self):
+        p = UP
+        line = cut_line(p,ps = .8,dl =1)
+        for e in range(1,10):
+            pss = e*.1
+            line2 = cut_line(p,ps = pss,dl =.01) 
+            self.play(Transform(line,line2))
 
 

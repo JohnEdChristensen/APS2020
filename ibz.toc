@@ -1,8 +1,8 @@
 \beamer@sectionintoc {1}{Background}{5}{0}{1}
 \beamer@subsectionintoc {1}{1}{Lattices}{5}{0}{1}
 \beamer@subsectionintoc {1}{2}{Brillouin Zones}{10}{0}{1}
-\beamer@subsectionintoc {1}{3}{Symmetry}{20}{0}{1}
-\beamer@sectionintoc {2}{Irreducible Brillouin Zone Algorithm}{21}{0}{2}
-\beamer@subsectionintoc {2}{1}{Why we have to work in the Brillouin Zone}{21}{0}{2}
+\beamer@subsectionintoc {1}{3}{Symmetry}{22}{0}{1}
+\beamer@sectionintoc {2}{Irreducible Brillouin Zone Algorithm}{23}{0}{2}
+\beamer@subsectionintoc {2}{1}{Why we have to work in the Brillouin Zone}{23}{0}{2}
 \beamer@subsectionintoc {2}{2}{Finding the Irreducible Brillouin Zone}{23}{0}{2}
 \beamer@subsectionintoc {2}{3}{Results}{26}{0}{2}

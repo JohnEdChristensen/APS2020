@@ -1,0 +1,2 @@
+file '/home/john/msg/talks/APS20/media/videos/animations/720p30/partial_movie_files/simp_sampling/00000.mp4'
+file '/home/john/msg/talks/APS20/media/videos/animations/720p30/partial_movie_files/simp_sampling/00001.mp4'

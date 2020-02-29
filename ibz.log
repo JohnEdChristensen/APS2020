@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.2.8)  26 FEB 2020 22:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2020.2.8)  28 FEB 2020 21:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -93,8 +93,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen124
 \Gm@layoutvoffset=\dimen125
 \Gm@dimlist=\toks15
-) (/usr/share/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2019/08/27 v1.4j Standard LaTeX file (size option)
+) (/usr/share/texmf-dist/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 ) (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
@@ -609,12 +609,12 @@ LaTeX Font Info:    ... okay on input line 23.
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
-* \topskip=11.0pt
+* \topskip=14.0pt
 * \footskip=14.22636pt
 * \marginparwidth=4.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -753,7 +753,7 @@ File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mat
 ] [4
 
 ]
-<media/videos/animations/720p30/lat_create.jpg, id=89, 1284.8pt x 722.7pt>
+<media/videos/animations/720p30/lat_create.jpg, id=88, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/lat_create.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/lat_create.jpg>
 Package pdftex.def Info: media/videos/animations/720p30/lat_create.jpg  used on input line 43.
@@ -761,7 +761,7 @@ Package pdftex.def Info: media/videos/animations/720p30/lat_create.jpg  used on 
  [5
 
  <./media/videos/animations/720p30/lat_create.jpg>]
-<media/videos/animations/720p30/linear_comb.jpg, id=95, 1284.8pt x 722.7pt>
+<media/videos/animations/720p30/linear_comb.jpg, id=94, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/linear_comb.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/linear_comb.jpg>
 Package pdftex.def Info: media/videos/animations/720p30/linear_comb.jpg  used on input line 45.
@@ -769,7 +769,7 @@ Package pdftex.def Info: media/videos/animations/720p30/linear_comb.jpg  used on
  [6
 
  <./media/videos/animations/720p30/linear_comb.jpg>]
-<media/videos/animations/720p30/lat_zoom.jpg, id=102, 1284.8pt x 722.7pt>
+<media/videos/animations/720p30/lat_zoom.jpg, id=101, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/lat_zoom.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/lat_zoom.jpg>
 Package pdftex.def Info: media/videos/animations/720p30/lat_zoom.jpg  used on input line 47.
@@ -777,7 +777,7 @@ Package pdftex.def Info: media/videos/animations/720p30/lat_zoom.jpg  used on in
  [7
 
  <./media/videos/animations/720p30/lat_zoom.jpg>]
-<media/videos/animations/720p30/unit_cell.jpg, id=110, 1284.8pt x 722.7pt>
+<media/videos/animations/720p30/unit_cell.jpg, id=109, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/unit_cell.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/unit_cell.jpg>
 Package pdftex.def Info: media/videos/animations/720p30/unit_cell.jpg  used on input line 49.
@@ -785,7 +785,7 @@ Package pdftex.def Info: media/videos/animations/720p30/unit_cell.jpg  used on i
  [8
 
  <./media/videos/animations/720p30/unit_cell.jpg>]
-<media/videos/animations/720p30/tile.jpg, id=117, 1284.8pt x 722.7pt>
+<media/videos/animations/720p30/tile.jpg, id=116, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/tile.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/tile.jpg>
 Package pdftex.def Info: media/videos/animations/720p30/tile.jpg  used on input line 51.
@@ -793,7 +793,7 @@ Package pdftex.def Info: media/videos/animations/720p30/tile.jpg  used on input 
  [9
 
  <./media/videos/animations/720p30/tile.jpg>]
-<media/videos/animations/720p30/hex_bz.jpg, id=123, 1284.8pt x 722.7pt>
+<media/videos/animations/720p30/hex_bz.jpg, id=122, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/hex_bz.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/hex_bz.jpg>
 Package pdftex.def Info: media/videos/animations/720p30/hex_bz.jpg  used on input line 56.
@@ -808,7 +808,7 @@ Package pdftex.def Info: media/videos/animations/720p30/hex_bz.jpg  used on inpu
  [11
 
 ]
-<media/videos/animations/720p30/hex_bz_tile.jpg, id=135, 1284.8pt x 722.7pt>
+<media/videos/animations/720p30/hex_bz_tile.jpg, id=134, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/hex_bz_tile.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/hex_bz_tile.jpg>
 Package pdftex.def Info: media/videos/animations/720p30/hex_bz_tile.jpg  used on input line 58.
@@ -816,7 +816,7 @@ Package pdftex.def Info: media/videos/animations/720p30/hex_bz_tile.jpg  used on
  [12
 
  <./media/videos/animations/720p30/hex_bz_tile.jpg>]
-<media/videos/animations/720p30/bz.jpg, id=142, 1284.8pt x 722.7pt>
+<media/videos/animations/720p30/bz.jpg, id=141, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/bz.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/bz.jpg>
 Package pdftex.def Info: media/videos/animations/720p30/bz.jpg  used on input line 60.
@@ -824,7 +824,7 @@ Package pdftex.def Info: media/videos/animations/720p30/bz.jpg  used on input li
  [13
 
  <./media/videos/animations/720p30/bz.jpg>]
-<media/videos/animations/720p30/bz_tile.jpg, id=150, 1284.8pt x 722.7pt>
+<media/videos/animations/720p30/bz_tile.jpg, id=149, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/bz_tile.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/bz_tile.jpg>
 Package pdftex.def Info: media/videos/animations/720p30/bz_tile.jpg  used on input line 62.
@@ -832,7 +832,7 @@ Package pdftex.def Info: media/videos/animations/720p30/bz_tile.jpg  used on inp
  [14
 
  <./media/videos/animations/720p30/bz_tile.jpg>]
-<media/videos/animations/720p30/ob_bz.jpg, id=157, 1284.8pt x 722.7pt>
+<media/videos/animations/720p30/ob_bz.jpg, id=156, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/ob_bz.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/ob_bz.jpg>
 Package pdftex.def Info: media/videos/animations/720p30/ob_bz.jpg  used on input line 63.
@@ -840,7 +840,7 @@ Package pdftex.def Info: media/videos/animations/720p30/ob_bz.jpg  used on input
  [15
 
  <./media/videos/animations/720p30/ob_bz.jpg>]
-<media/videos/animations/720p30/ob_bz_tile.jpg, id=164, 1284.8pt x 722.7pt>
+<media/videos/animations/720p30/ob_bz_tile.jpg, id=163, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/ob_bz_tile.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/ob_bz_tile.jpg>
 Package pdftex.def Info: media/videos/animations/720p30/ob_bz_tile.jpg  used on input line 64.
@@ -848,7 +848,7 @@ Package pdftex.def Info: media/videos/animations/720p30/ob_bz_tile.jpg  used on 
  [16
 
  <./media/videos/animations/720p30/ob_bz_tile.jpg>]
-<media/videos/animations/720p30/bz_to_uc.jpg, id=172, 1284.8pt x 722.7pt>
+<media/videos/animations/720p30/bz_to_uc.jpg, id=171, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/bz_to_uc.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/bz_to_uc.jpg>
 Package pdftex.def Info: media/videos/animations/720p30/bz_to_uc.jpg  used on input line 66.
@@ -856,7 +856,7 @@ Package pdftex.def Info: media/videos/animations/720p30/bz_to_uc.jpg  used on in
  [17
 
  <./media/videos/animations/720p30/bz_to_uc.jpg>]
-<media/videos/animations/720p30/rectangle_rule.jpg, id=179, 1284.8pt x 722.7pt>
+<media/videos/animations/720p30/rectangle_rule.jpg, id=178, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/rectangle_rule.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/rectangle_rule.jpg>
 Package pdftex.def Info: media/videos/animations/720p30/rectangle_rule.jpg  used on input line 70.
@@ -864,7 +864,7 @@ Package pdftex.def Info: media/videos/animations/720p30/rectangle_rule.jpg  used
  [18
 
  <./media/videos/animations/720p30/rectangle_rule.jpg>]
-<media/videos/animations/720p30/rectangle_rule2.jpg, id=186, 1284.8pt x 722.7pt>
+<media/videos/animations/720p30/rectangle_rule2.jpg, id=185, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/rectangle_rule2.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/rectangle_rule2.jpg>
 Package pdftex.def Info: media/videos/animations/720p30/rectangle_rule2.jpg  used on input line 71.
@@ -872,34 +872,34 @@ Package pdftex.def Info: media/videos/animations/720p30/rectangle_rule2.jpg  use
  [19
 
  <./media/videos/animations/720p30/rectangle_rule2.jpg>]
-<media/videos/animations/720p30/sym.jpg, id=194, 1284.8pt x 722.7pt>
-File: media/videos/animations/720p30/sym.jpg Graphic file (type jpg)
-<use media/videos/animations/720p30/sym.jpg>
-Package pdftex.def Info: media/videos/animations/720p30/sym.jpg  used on input line 74.
+<media/videos/animations/720p30/simp_sampling.jpg, id=193, 1284.8pt x 722.7pt>
+File: media/videos/animations/720p30/simp_sampling.jpg Graphic file (type jpg)
+<use media/videos/animations/720p30/simp_sampling.jpg>
+Package pdftex.def Info: media/videos/animations/720p30/simp_sampling.jpg  used on input line 73.
 (pdftex.def)             Requested size: 455.2348pt x 256.06956pt.
  [20
 
- <./media/videos/animations/720p30/sym.jpg>]
-<media/videos/animations/720p30/sampling.jpg, id=200, 1284.8pt x 722.7pt>
-File: media/videos/animations/720p30/sampling.jpg Graphic file (type jpg)
-<use media/videos/animations/720p30/sampling.jpg>
-Package pdftex.def Info: media/videos/animations/720p30/sampling.jpg  used on input line 78.
+ <./media/videos/animations/720p30/simp_sampling.jpg>]
+<media/videos/animations/720p30/simp_sampling2.jpg, id=200, 1284.8pt x 722.7pt>
+File: media/videos/animations/720p30/simp_sampling2.jpg Graphic file (type jpg)
+<use media/videos/animations/720p30/simp_sampling2.jpg>
+Package pdftex.def Info: media/videos/animations/720p30/simp_sampling2.jpg  used on input line 74.
 (pdftex.def)             Requested size: 455.2348pt x 256.06956pt.
  [21
 
- <./media/videos/animations/720p30/sampling.jpg>]
-<media/videos/animations/720p30/nu_sampling.jpg, id=206, 1284.8pt x 722.7pt>
-File: media/videos/animations/720p30/nu_sampling.jpg Graphic file (type jpg)
-<use media/videos/animations/720p30/nu_sampling.jpg>
-Package pdftex.def Info: media/videos/animations/720p30/nu_sampling.jpg  used on input line 79.
+ <./media/videos/animations/720p30/simp_sampling2.jpg>]
+<media/videos/animations/720p30/sym.jpg, id=207, 1284.8pt x 722.7pt>
+File: media/videos/animations/720p30/sym.jpg Graphic file (type jpg)
+<use media/videos/animations/720p30/sym.jpg>
+Package pdftex.def Info: media/videos/animations/720p30/sym.jpg  used on input line 78.
 (pdftex.def)             Requested size: 455.2348pt x 256.06956pt.
  [22
 
- <./media/videos/animations/720p30/nu_sampling.jpg>]
+ <./media/videos/animations/720p30/sym.jpg>]
 <media/videos/animations/720p30/ob_ibz.jpg, id=213, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/ob_ibz.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/ob_ibz.jpg>
-Package pdftex.def Info: media/videos/animations/720p30/ob_ibz.jpg  used on input line 84.
+Package pdftex.def Info: media/videos/animations/720p30/ob_ibz.jpg  used on input line 86.
 (pdftex.def)             Requested size: 455.2348pt x 256.06956pt.
  [23
 
@@ -907,7 +907,7 @@ Package pdftex.def Info: media/videos/animations/720p30/ob_ibz.jpg  used on inpu
 <media/videos/animations/720p30/square_ibz.jpg, id=219, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/square_ibz.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/square_ibz.jpg>
-Package pdftex.def Info: media/videos/animations/720p30/square_ibz.jpg  used on input line 85.
+Package pdftex.def Info: media/videos/animations/720p30/square_ibz.jpg  used on input line 87.
 (pdftex.def)             Requested size: 455.2348pt x 256.06956pt.
  [24
 
@@ -915,7 +915,7 @@ Package pdftex.def Info: media/videos/animations/720p30/square_ibz.jpg  used on 
 <media/videos/animations/720p30/ibz.jpg, id=226, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/ibz.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/ibz.jpg>
-Package pdftex.def Info: media/videos/animations/720p30/ibz.jpg  used on input line 86.
+Package pdftex.def Info: media/videos/animations/720p30/ibz.jpg  used on input line 88.
 (pdftex.def)             Requested size: 455.2348pt x 256.06956pt.
  [25
 
@@ -923,7 +923,7 @@ Package pdftex.def Info: media/videos/animations/720p30/ibz.jpg  used on input l
 <media/videos/animations/720p30/3DIBZ.jpg, id=234, 1284.8pt x 722.7pt>
 File: media/videos/animations/720p30/3DIBZ.jpg Graphic file (type jpg)
 <use media/videos/animations/720p30/3DIBZ.jpg>
-Package pdftex.def Info: media/videos/animations/720p30/3DIBZ.jpg  used on input line 89.
+Package pdftex.def Info: media/videos/animations/720p30/3DIBZ.jpg  used on input line 91.
 (pdftex.def)             Requested size: 455.2348pt x 256.06956pt.
  [26
 
@@ -937,24 +937,24 @@ Package pdftex.def Info: media/videos/animations/720p30/3DIBZ.jpg  used on input
 \tf@snm=\write8
 \openout8 = `ibz.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
  (./ibz.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `ibz.out' has not changed.
-(rerunfilecheck)             Checksum: 37FE5857476BFC6B23DEF4AEE52ADCA9;532.
+(rerunfilecheck)             Checksum: 321410256941771F5E53656D2B663537;532.
  ) 
 Here is how much of TeX's memory you used:
- 20925 strings out of 492167
- 408082 string characters out of 6131559
- 477890 words of memory out of 5000000
- 24758 multiletter control sequences out of 15000+600000
- 10695 words of font info for 39 fonts, out of 8000000 for 9000
+ 20912 strings out of 492167
+ 408075 string characters out of 6131559
+ 477874 words of memory out of 5000000
+ 24745 multiletter control sequences out of 15000+600000
+ 9862 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,11n,57p,793b,732s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on ibz.pdf (26 pages, 549760 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on ibz.pdf (26 pages, 557896 bytes).
 PDF statistics:
  271 PDF objects out of 1000 (max. 8388607)
  206 compressed objects within 3 object streams
